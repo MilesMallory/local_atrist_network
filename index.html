@@ -8,7 +8,6 @@
 </head>
 <body>
   <header>
-    <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -21,14 +20,32 @@
     </nav>
   </header>
 
-  <section class="content">
+  <!-- Mobile Menu Button -->
+  <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+
+  <section class="hero fade-in">
     <h1>Welcome to the Local Artist Network</h1>
-    <p>Explore the vibrant history, people, and future of our local art scene. This site is built for artists, by artists — showcasing creativity, community, and collaboration.</p>
+    <p>Uniting community through creativity. Discover local art, its roots, and the people shaping the scene today.</p>
+    <a href="originators.html" class="cta-button">Meet the Artists</a>
+  </section>
+
+  <section class="content">
+    <h2 class="fade-in">Our Mission</h2>
+    <p class="fade-in">We connect emerging and established artists in our community, promoting creative collaboration and visibility.</p>
+
+    <!-- Collapsible Section -->
+    <button class="collapsible">Read More About Our Community Impact</button>
+    <div class="collapsible-content">
+      <p>Since 2010, we've helped launch over 50 local exhibits and supported art education programs in 12 public schools.</p>
+    </div>
   </section>
 
   <footer>
     <p>&copy; 2025 Local Artist Network. All Rights Reserved.</p>
   </footer>
-<script src="js/script.js"></script>
+
+  <!-- JavaScript File -->
+  <script src="js/script.js"></script>
 </body>
 </html>
+
